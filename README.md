@@ -1,23 +1,25 @@
-# Getting Started with [Fastify-CLI](https://www.npmjs.com/package/fastify-cli)
-This project was bootstrapped with Fastify-CLI.
+# XSS Attacker Endpoint
 
-## Available Scripts
+A simple HTTP server using Fastify.
 
-In the project directory, you can run:
+## Setup guide
 
-### `npm run dev`
+Clone this repository and install the dependencies.
 
-To start the app in dev mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+npm install
+```
 
-### `npm start`
+## Run
 
-For production mode
+To run the web application in `dev` mode:
 
-### `npm run test`
+```
+npm run dev
+```
 
-Run the test cases.
+or, in `production`.
 
-## Learn More
-
-To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
+```
+npm run start
+```
